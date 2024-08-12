@@ -8,8 +8,8 @@ const Login = () => {
 
 
     const handleSubmit = (e) => {
-e.preventDefault();
-setUser(username,password)
+        e.preventDefault();
+        setUser({ username, password })
     }
     return (
         <div>
